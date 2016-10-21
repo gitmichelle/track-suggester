@@ -8,9 +8,21 @@ $(document).ready(function() {
     var question6 = parseInt($("input:radio[name=question6]:checked").val());
     var total = (question1 + question2 + question3 + question4 + question5 + question6);
 
-    if (total <= 9){
-      var total
+    if (total <= 6) {
+      var result = "You should be a CSS/Design Developer!"
+    } else if (total <= 12) {
+      var result = "You should be a C# Developer!"
+    } else if (total <= 18) {
+      var result = "You should be a Java Developer!"
+    } else if (total <= 24) {
+      var result = "You should be a PHP Developer!"
+    } else {
+      var result = "You should be a Ruby Developer!"
     }
+
+    console.log(result);
+
+    $("#result").text(result);
     event.preventDefault();
   });
 });
