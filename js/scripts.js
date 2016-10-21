@@ -20,9 +20,8 @@ $(document).ready(function() {
       var result = "You should be a Ruby Developer!"
     }
 
-    console.log(result);
-
     $("#result").text(result);
     event.preventDefault();
+    $(this).hide();
   });
 });

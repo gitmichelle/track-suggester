@@ -1,8 +1,59 @@
 .page-header {
   text-align: center;
   padding-bottom: 50px;
+  font-family: 'Bungee Inline', cursive;
 }
 
 #question1, #question2, #question3, #question4, #question5, #question6 {
   padding-bottom: 30px;
+}
+
+body {
+ font-family: 'Dosis', sans-serif;
+ background-color: #C4C4C4;
+ padding-bottom: 200px;
+}
+
+button {
+  background-color: tomato;
+}
+
+#show {
+  text-align: center;
+  font-size: 30pt;
+	-webkit-animation: blink .75s linear infinite;
+	-moz-animation: blink .75s linear infinite;
+	-ms-animation: blink .75s linear infinite;
+	-o-animation: blink .75s linear infinite;
+	 animation: blink .75s linear infinite;
+}
+@-webkit-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-moz-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-ms-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-o-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
 }
