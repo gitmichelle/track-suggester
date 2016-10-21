@@ -7,6 +7,6 @@
   padding-bottom: 30px;
 }
 
-.questions {
-
+#result {
+  display: none;
 }
