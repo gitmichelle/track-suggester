@@ -10,6 +10,7 @@ _The Epicodus Track Suggester is a 6-question quiz. Once the user presses the "G
 
 ## Setup/Installation Requirements
 
+* _Works in any web browser [click here] (https://gitmichelle.github.io/track-suggester.git/) to view on gh-pages._
 * _Clone this repository:https://github.com/gitmichelle/track-suggester.git_
 
 
